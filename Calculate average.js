@@ -3,4 +3,8 @@ function findAverage(array) {
       const result=(array.reduce((partialSum, a) => partialSum + a, 0))/array.length
       return result;
       }
+      if(array=[]){
+      return 0
+      }
   }
+  console.log(findAverage([]))
