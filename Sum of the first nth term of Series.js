@@ -1,0 +1,8 @@
+function SeriesSum(n){
+let sum=0
+for(i=0;i<n;i++){
+    sum+=1/(i*3+1)
+}
+return sum.toFixed(2)
+}
+console.log(SeriesSum(5))
